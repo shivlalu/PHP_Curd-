@@ -1,3 +1,10 @@
+<!-- 
+1 create form tag 
+2 inside form with attribute method="Post" create required input filed with attribute name="name of inputbox"
+  and last line of form create input type="button"
+3 above form tag start php by if(isset($_post['name_of_button']))
+$conn=mysqli_connect("localhost","root","","database_name")
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
